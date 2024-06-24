@@ -1,11 +1,13 @@
-Lawnchair repo currently compatible with Android QPR3
+Lawnchair repo currently compatible with Android 14 QPR3
 
 To use this Lawnchair repo in your ROM builds, add the following two lines to your rom_device.mk ( example lineage_alioth.mk )
+
 
 ```bash
      $(call inherit-product, vendor/lawnchair/product.mk)
      TARGET_LAWNCHAIR := true	
 ```
+
 
 And build and Lawnchair will be the system launcher
 
