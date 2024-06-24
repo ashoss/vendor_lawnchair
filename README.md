@@ -12,4 +12,5 @@ And build and Lawnchair will be the system launcher
 Credits
 
 [Lawnchair](https://github.com/LawnchairLauncher/lawnchair)
+&
 [AlphaDroid](https://github.com/AlphaDroid-Project)
