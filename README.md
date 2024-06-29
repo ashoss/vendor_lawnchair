@@ -22,4 +22,4 @@
 
 Credits:
 
-##### [Lawnchair](https://github.com/LawnchairLauncher/lawnchair)##### [AlphaDroid](https://github.com/AlphaDroid-Project)
+##### [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) & [AlphaDroid](https://github.com/AlphaDroid-Project)
