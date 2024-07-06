@@ -14,7 +14,7 @@
 ```bash
   #Lawnchair
   $(call inherit-product, vendor/lawnchair/product.mk)
-  TARGET_LAWNCHAIR := true	
+  TARGET_INCLUDE_LAWNCHAIR := true	
 ```
 
 
