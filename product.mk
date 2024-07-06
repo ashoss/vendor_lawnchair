@@ -1,8 +1,9 @@
-# TARGET_LAUNCHER options:
-# 1 - stock (default)
-# 2 - lawnchair
-# 3 - pixel (valid only on gapps builds)
-ifeq ($(TARGET_LAUNCHER),2)
+# To use this repo in yopur builds add the following lines to your rom_device.mk
+#
+# $(call inherit-product, vendor/lawnchair/product.mk)
+# TARGET_INCLUDE_LAWNCHAIR := true
+
+ifeq ($(TARGET_INCLUDE_LAWNCHAIR),true)
   PRODUCT_PACKAGES += \
     Lawnchair \
     LawnchairOverlay \
