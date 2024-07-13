@@ -4,6 +4,7 @@
 
 
 ```bash
+
   git clone https://github.com/ashoss/vendor_lawnchair.git vendor/lawnchair
 
 ```
@@ -12,9 +13,11 @@
 
 
 ```bash
+
   #Lawnchair
+  TARGET_INCLUDE_LAWNCHAIR := true
   $(call inherit-product, vendor/lawnchair/product.mk)
-  TARGET_INCLUDE_LAWNCHAIR := true	
+  
 ```
 
 
